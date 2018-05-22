@@ -303,9 +303,16 @@
       
         
           
-            <p style="color:AliceBlue"><br>用VS code run c++<br><br>Windows下VSCode便携式c/c++环境<br>基于Visual Studio Code Version 1.13<br>包含GCC，可进行编译调试<br>VSCode的配置及插件便携化，不影响本机已存的VSCode（即可同时存在多个VSCode，配置插件各自独立）<br>使用说明：<br>使用”Code.portable.bat”来启动便携版。<br>调试代码时会要求你配置，此时随意选择一个配置，然后使用”.\portable\configs\”下的文件替换你在”.vscode”下的配置文件即可。<br>这是VSCode编写调试c/cpp程序的便携式自动配置环境<br>c/cpp的编译器（gcc，g++）<br>调试器（gdb）<br>vscode<br>自动配置脚本<br>首次使用双击setup.bat进行自动配置，以后每次打开VSCode.bat即可。<br>setup.bat会向当前用户的文件夹内拷贝一些文件（cpptool）用于配置，请确保拥有足够权限。<br>内置的Project文件夹为默认的项目文件夹，其中预置了一个helloworld测试程序。<br>度娘种<br><br>链接：<a href="http://pan.baidu.com/s/1skGlgol" target="_blank" rel="noopener">http://pan.baidu.com/s/1skGlgol</a> 密码：ow7s<br></p>
-
-          
+          用VS code run c++
+Windows下VSCode便携式c/c++环境基于Visual Studio Code Version 1.13包含GCC，可进行编译调试VSCode的配置及插件便携化，不影响本机已存的VSCode（即可同时存在多个VSCode，配置插件各自独立）使用说明：使用”Code.portable.bat”来启动便携版。调试代码时会要求你配置，此时随意选择一个配置，然后
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/VSC-run-c/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -422,10 +429,14 @@
 
       
         
-          
-            <p></p><p style="color:AliceBlue"><br>先贴一个最简单的快读吧，以后慢慢更<br></p><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">inline int read()</span><br><span class="line"></span><br><span class="line">&#123;  </span><br><span class="line">   int s=0,w=1;  </span><br><span class="line">   char ch=getchar();  </span><br><span class="line">   while(ch&lt;=&apos;0&apos;||ch&gt;&apos;9&apos;)&#123;if(ch==&apos;-&apos;)w=-1;ch=getchar();&#125;  </span><br><span class="line">   while(ch&gt;=&apos;0&apos;&amp;&amp;ch&lt;=&apos;9&apos;) s=s*10+ch-&apos;0&apos;,ch=getchar();  </span><br><span class="line">   return s*w;  </span><br><span class="line">&#125;  </span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    int n=read();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p>
-
-          
+          在C语言文件数据的输入输出中，当调用输入函数从外部文件中输入数据赋给程序中的变量时，这种操作成为“输入”或“读”
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/快读/">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -542,10 +553,14 @@
 
       
         
-          
-            <p style="color:AliceBlue"><br>hash例题<br>oj1335<br></p><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;cstring&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int step=7;</span><br><span class="line">const int modprime=2323237;</span><br><span class="line">int hash[modprime+5];</span><br><span class="line">int a[100100],b[100100],an,bn;</span><br><span class="line">int tong=0;//记录相同元素个数</span><br><span class="line"></span><br><span class="line">void init()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">    memset(a,0,sizeof(a));</span><br><span class="line">    memset(b,0,sizeof(b));</span><br><span class="line">    scanf(&quot;%d&quot;,&amp;an);</span><br><span class="line">    for(int i=1;i&lt;=an;i++)</span><br><span class="line">        scanf(&quot;%d&quot;,&amp;a[i]);   </span><br><span class="line">        scanf(&quot;%d&quot;,&amp;bn);</span><br><span class="line">    for(int i=1;i&lt;=bn;i++)</span><br><span class="line">        scanf(&quot;%d&quot;,&amp;b[i]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int find(int k)//查找k元素</span><br><span class="line">&#123;</span><br><span class="line">    int temp=k%modprime;</span><br><span class="line">    while(hash[temp]!=k&amp;&amp;hash[temp]!=0)</span><br><span class="line">    &#123;</span><br><span class="line">        temp+=step;</span><br><span class="line">        if(temp&gt;=modprime)</span><br><span class="line">            temp-=modprime;</span><br><span class="line">    &#125;</span><br><span class="line">    return temp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void insert(int k)//插入hash表</span><br><span class="line">&#123;</span><br><span class="line">    int now=find(k);</span><br><span class="line">    hash[now]=k;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void check(int k)//在hash中查找元素</span><br><span class="line">&#123;</span><br><span class="line">    int now=find(k);</span><br><span class="line">    if(hash[now]==k)</span><br><span class="line">        tong++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void work()</span><br><span class="line">&#123;</span><br><span class="line">    for(int i=1;i&lt;=an;i++)</span><br><span class="line">        insert(a[i]);</span><br><span class="line">    for(int i=1;i&lt;=bn;i++)</span><br><span class="line">        check(b[i]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    init();</span><br><span class="line">    work();</span><br><span class="line">    if(an==bn&amp;&amp;tong==an)</span><br><span class="line">    &#123;</span><br><span class="line">        puts(&quot;A equals B&quot;);</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br><span class="line">    if(an&lt;bn&amp;&amp;tong==an)</span><br><span class="line">    &#123;</span><br><span class="line">        puts(&quot;A is a proper subset of B&quot;);</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br><span class="line">    if(an&gt;bn&amp;&amp;tong==bn)</span><br><span class="line">    &#123;</span><br><span class="line">        puts(&quot;B is a proper subset of A&quot;);</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    if(tong==0)</span><br><span class="line">        puts(&quot;A and B are disjoint&quot;);</span><br><span class="line">    else</span><br><span class="line">        puts(&quot;I&apos;m confused!&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">//hash hash Murs</span><br></pre></td></tr></table></figure><br><br><p style="color:AliceBlue"><br><br>hash有几个要素:<br><br>先是要制作获取hash地址的find函数<br>在一个表中insert进去然后查询<br>以拉链式进行最后比较相同元素数并进行特判其实这种思想在之前的一个problem中就有体现，不记得题号了但是是以char所对应的int值来做下标查询.<br></p>
-
-          
+          Hash，一般翻译做“散列”，也有直接音译为“哈希”的，就是把任意长度的输入（又叫做预映射， pre-image），通过散列算法，变换成固定长度的输出，该输出就是散列值。这种转换是一种压缩映射，也就是，散列值的空间通常远小于输入的空间，不同的输入可能会散列成相同的输出，所以不可能从散列值来确定唯一的输入值。简单的说就是一种将任意长度的消息压缩到某一固定长度的消息摘要的函数。
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/hash/">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -662,10 +677,14 @@
 
       
         
-          
-            <p></p><p style="color:AliceBlue"><br>Bessie Come Home<br>Dijkstra 板子<br></p><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">#include&lt;cstring&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">int n,a[200][200],dis[200];</span><br><span class="line">bool vis[200];</span><br><span class="line">void init()</span><br><span class="line">&#123;</span><br><span class="line">	memset(a,10,sizeof(a));</span><br><span class="line">	cin&gt;&gt;n;</span><br><span class="line">	char a_,b_;</span><br><span class="line">	int c_;</span><br><span class="line">	for(int i=1;i&lt;=n;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		cin&gt;&gt;a_&gt;&gt;b_&gt;&gt;c_;	</span><br><span class="line">		a[int(a_)][int(b_)]=min(c_,a[int(a_)][int(b_)]);</span><br><span class="line">		a[int(b_)][int(a_)]=min(c_,a[int(b_)][int(a_)]);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">void dijkstra(int st)</span><br><span class="line">&#123;</span><br><span class="line">	for(int i=0;i&lt;200;i++)</span><br><span class="line">		dis[i]=a[int(&apos;Z&apos;)][i];</span><br><span class="line">	memset(vis,false,sizeof(vis));</span><br><span class="line">	vis[st]=true;</span><br><span class="line">	for(int i=0;i&lt;n;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		int minn=2000000000;</span><br><span class="line">		int k=-1;</span><br><span class="line">		for(int j=0;j&lt;200;j++)</span><br><span class="line">			if(!vis[j]&amp;&amp;dis[j]&lt;minn)</span><br><span class="line">			&#123;</span><br><span class="line">				minn=dis[j];</span><br><span class="line">				k=j;</span><br><span class="line">			&#125;</span><br><span class="line">		if(k==-1)	return;</span><br><span class="line">		vis[k]=true;</span><br><span class="line">		for(int j=0;j&lt;200;j++)</span><br><span class="line">			if(!vis[j]&amp;&amp;(dis[k]+a[k][j]&lt;dis[j]))</span><br><span class="line">				dis[j]=dis[k]+a[k][j];</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	//freopen(&quot;devil.in&quot;,&quot;r&quot;,stdin);</span><br><span class="line">	init();</span><br><span class="line">	dijkstra(int(&apos;Z&apos;));</span><br><span class="line">	int minn=200000000,k=-1;</span><br><span class="line">	for(int i=int(&apos;A&apos;);i&lt;int(&apos;Z&apos;);i++)</span><br><span class="line">		if(dis[i]&lt;minn)</span><br><span class="line">		&#123;</span><br><span class="line">			minn=dis[i];</span><br><span class="line">			k=i;</span><br><span class="line">		&#125;</span><br><span class="line">	cout&lt;&lt;char(k)&lt;&lt;&apos; &apos;&lt;&lt;minn&lt;&lt;endl;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p>
-
-          
+          迪杰斯特拉算法是由荷兰计算机科学家狄克斯特拉于1959 年提出的，因此又叫狄克斯特拉算法。是从一个顶点到其余各顶点的最短路径算法，解决的是有向图中最短路径问题。迪杰斯特拉算法主要特点是以起始点为中心向外层层扩展，直到扩展到终点为止
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/Dijkstra/">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -783,14 +802,18 @@
       
         
           
-            <p style="color:AliceBlue "><br><br>线段树 模板<br></p>
+          线段树 模板
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">struct xdtree</span><br><span class="line">&#123;</span><br><span class="line">    int maxx;</span><br><span class="line">    int delta;</span><br><span class="line">&#125;tree[4*maxn];</span><br></pre></td></tr></table></figure>
-<p>直接修改每个叶节点值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">void updata(int left,int right,int root)</span><br><span class="line">&#123;</span><br><span class="line">	int mid;</span><br><span class="line">	if(y&lt;left||x&gt;right)</span><br><span class="line">		return;</span><br><span class="line">	if(x&lt;=left&amp;&amp;y&gt;=right)</span><br><span class="line">	&#123;</span><br><span class="line">		tree[root].maxx+=k;</span><br><span class="line">		tree[root].delta++;</span><br><span class="line">		return;</span><br><span class="line">	&#125;</span><br><span class="line">	mid=(left+right)/2;</span><br><span class="line">	int delta=tree[root].delta;</span><br><span class="line">	tree[root*2].maxx+=delta;tree[root*2].delta+=delta;</span><br><span class="line">	tree[root*2+1].maxx+=delta;tree[root*2+1].delta+=delta;</span><br><span class="line">	tree[root].delta=0;</span><br><span class="line">	updata(left,mid,root*2);</span><br><span class="line">	updata(mid+1,right,root*2+1);</span><br><span class="line">	tree[root].maxx=max(tree[root*2].maxx,tree[root*2+1].maxx);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>查询<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">int search(int left,int right,int root)</span><br><span class="line">&#123;</span><br><span class="line">	int mid,tr,tl;</span><br><span class="line">	if(y&lt;left||x&gt;right)</span><br><span class="line">		return -222222222;</span><br><span class="line">	if(x&lt;=left&amp;&amp;y&gt;=right)</span><br><span class="line">		return tree[root].maxx;</span><br><span class="line">	mid=(left+right)/2;</span><br><span class="line">	int delta=tree[root].delta;</span><br><span class="line">	tree[root*2].maxx+=delta;tree[root*2].delta+=delta;</span><br><span class="line">	tree[root*2+1].maxx+=delta;tree[root*2+1].delta+=delta;</span><br><span class="line">	tree[root].delta=0;</span><br><span class="line">	tl=search(left,mid,root*2);</span><br><span class="line">	tr=search(mid+1,right,root*2+1);</span><br><span class="line">	return max(tr,tl);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>将区间内叶子节点加上k<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">    int delta=tree[root].delta;  //根的偏移量。</span><br><span class="line"></span><br><span class="line">    //往左右子树传递偏移量</span><br><span class="line"></span><br><span class="line">         tree[root*2].delta+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root*2].maxx+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root*2+1].maxx+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root*2+1].delta+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root].delta=0;   //因为偏移量已经往下传，当前根的偏移量清0.</span><br><span class="line">```        </span><br><span class="line">我们来对比一下，加K与直接更新相比，就多了如上一段代码，这段代码就是线段树思想的核心：偏移量顺便往下传递。相应修改的值也要做一下修改。</span><br><span class="line"></span><br><span class="line">ATTENTION</span><br><span class="line">只有一个大区间的答案可以从左右两个小区间的答案中合并而来时，才可以用线段树。反之，如果一个大区间的答案不可以从左右两个小区间的答案中合并而来时，线段树就失去了意义。</span><br></pre></td></tr></table></figure></p>
-
-          
+12345struct xdtree&#123;    int maxx;    int delta;&#125;tree[4*maxn];
+直接修改每个叶节点值1234567891011121314151617181920void updata(int left,int right,int root)&#123;	int mid;	if(y&lt;left||x&gt;right
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/线段树/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -908,13 +931,17 @@
       
         
           
-            <p style="color:AliceBlue "><br><br>线性表(静态链表)<br><br></p>
-
-<p>1.定义<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">struct node</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">    int value;当前元素值</span><br><span class="line"></span><br><span class="line">    int next;该元素下一元素的下标（体现了链的概念）</span><br><span class="line"></span><br><span class="line">&#125;arr[........];</span><br><span class="line">int top;//实际元素个数</span><br></pre></td></tr></table></figure></p>
-<p>2.插入（将元素q插入到第p个元素后面）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">top++；//新开一个空元素</span><br><span class="line"></span><br><span class="line">arr[top].value=q;//将所要插入的元素值放到该空元素内</span><br><span class="line"></span><br><span class="line">arr[top].next=arr[p].next;//插入前第p元素的next在插入后就是q的下一个元素的下标</span><br><span class="line"></span><br><span class="line">arr[p].next=top;//所插入元素的前一个元素也就是p的next所指向的即为所插入元素的下标，而前面我们将其放在top位置上则arr[p].next就要指向top</span><br></pre></td></tr></table></figure></p>
-<p>3.删除（将p的下一个元素删除）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">int temp=arr[p].next;//提取下一元素的下标</span><br><span class="line"></span><br><span class="line">arr[p].next=arr[temp].next;//将p的next直接指向下下一个元素的下标，就把p下一个元素给跳过；</span><br><span class="line">PS：千万注意链表中的下标和next一定要区分开！</span><br></pre></td></tr></table></figure></p>
-
-          
+          线性表(静态链表)
+1.定义123456789struct node&#123;    int value;当前元素值    int next;该元素下一元素的下标（体现了链的概念）&#125;arr[........];int top;//实际元素个数
+2.插入（将元素q插入到第p个元素后面）1234567top++；//新开一个空元素arr[top].value=q;//将所要插入的元素值放到
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/链表/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1032,11 +1059,18 @@
       
         
           
-            <pre><code>接下来几篇都是搬运自我之前lofter内的博客
+          接下来几篇都是搬运自我之前lofter内的博客
 是一些非常naive的
 emmmm............
-</code></pre>
+
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/May21/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1154,10 +1188,17 @@ emmmm............
       
         
           
-            <pre><code>这个blog站今天就正式搭起来啦！
+          这个blog站今天就正式搭起来啦！
                                     ——Murs
-</code></pre>
+
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/21/hello my blog/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1323,7 +1364,6 @@ emmmm............
   本站访客数:<span id="busuanzi_value_site_pv"></span>次
 </span>
 </div>
-1
   <div class="powered-by">由 Murs 强力驱动</div>
 
 

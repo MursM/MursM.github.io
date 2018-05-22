@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="先贴一个最简单的快读吧，以后慢慢更123456789101112131415inline int read()&amp;#123;     int s=0,w=1;     char ch=getchar();     while(ch&amp;lt;=&amp;apos;0&amp;apos;||ch&amp;gt;&amp;apos;9&amp;apos;)&amp;#123;if(ch==&amp;apos;-&amp;apos;)w=-1;ch=getchar();&amp;">
+<meta name="description" content="在C语言文件数据的输入输出中，当调用输入函数从外部文件中输入数据赋给程序中的变量时，这种操作成为“输入”或“读”">
 <meta name="keywords" content="模版">
 <meta property="og:type" content="article">
 <meta property="og:title" content="快读">
 <meta property="og:url" content="http://yoursite.com/2018/05/21/快读/index.html">
 <meta property="og:site_name" content="Murs&#39; blog">
-<meta property="og:description" content="先贴一个最简单的快读吧，以后慢慢更123456789101112131415inline int read()&amp;#123;     int s=0,w=1;     char ch=getchar();     while(ch&amp;lt;=&amp;apos;0&amp;apos;||ch&amp;gt;&amp;apos;9&amp;apos;)&amp;#123;if(ch==&amp;apos;-&amp;apos;)w=-1;ch=getchar();&amp;">
+<meta property="og:description" content="在C语言文件数据的输入输出中，当调用输入函数从外部文件中输入数据赋给程序中的变量时，这种操作成为“输入”或“读”">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-21T12:15:26.940Z">
+<meta property="og:updated_time" content="2018-05-22T13:20:13.150Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="快读">
-<meta name="twitter:description" content="先贴一个最简单的快读吧，以后慢慢更123456789101112131415inline int read()&amp;#123;     int s=0,w=1;     char ch=getchar();     while(ch&amp;lt;=&amp;apos;0&amp;apos;||ch&amp;gt;&amp;apos;9&amp;apos;)&amp;#123;if(ch==&amp;apos;-&amp;apos;)w=-1;ch=getchar();&amp;">
+<meta name="twitter:description" content="在C语言文件数据的输入输出中，当调用输入函数从外部文件中输入数据赋给程序中的变量时，这种操作成为“输入”或“读”">
 
 
 
@@ -286,6 +286,10 @@
           
 
           
+              <div class="post-description">
+                  在C语言文件数据的输入输出中，当调用输入函数从外部文件中输入数据赋给程序中的变量时，这种操作成为“输入”或“读”
+              </div>
+          
 
         </div>
       </header>
@@ -300,7 +304,7 @@
       
 
       
-        <p></p><p style="color:AliceBlue"><br>先贴一个最简单的快读吧，以后慢慢更<br></p><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">inline int read()</span><br><span class="line"></span><br><span class="line">&#123;  </span><br><span class="line">   int s=0,w=1;  </span><br><span class="line">   char ch=getchar();  </span><br><span class="line">   while(ch&lt;=&apos;0&apos;||ch&gt;&apos;9&apos;)&#123;if(ch==&apos;-&apos;)w=-1;ch=getchar();&#125;  </span><br><span class="line">   while(ch&gt;=&apos;0&apos;&amp;&amp;ch&lt;=&apos;9&apos;) s=s*10+ch-&apos;0&apos;,ch=getchar();  </span><br><span class="line">   return s*w;  </span><br><span class="line">&#125;  </span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    int n=read();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p>
+        <p>先贴一个最简单的快读吧，以后慢慢更<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">inline int read()</span><br><span class="line"></span><br><span class="line">&#123;  </span><br><span class="line">   int s=0,w=1;  </span><br><span class="line">   char ch=getchar();  </span><br><span class="line">   while(ch&lt;=&apos;0&apos;||ch&gt;&apos;9&apos;)&#123;if(ch==&apos;-&apos;)w=-1;ch=getchar();&#125;  </span><br><span class="line">   while(ch&gt;=&apos;0&apos;&amp;&amp;ch&lt;=&apos;9&apos;) s=s*10+ch-&apos;0&apos;,ch=getchar();  </span><br><span class="line">   return s*w;  </span><br><span class="line">&#125;  </span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    int n=read();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -497,7 +501,6 @@
   本站访客数:<span id="busuanzi_value_site_pv"></span>次
 </span>
 </div>
-1
   <div class="powered-by">由 Murs 强力驱动</div>
 
 
