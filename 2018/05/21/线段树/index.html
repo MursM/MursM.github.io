@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="基础," />
+  <meta name="keywords" content="模版," />
 
 
 
@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="接下来几篇都是搬运自我之前lofter内的博客 是一些非常naive的 emmmm............">
-<meta name="keywords" content="基础">
+<meta name="description" content="线段树是一种二叉搜索树，与区间树相似，它将一个区间划分成一些单元区间，每个单元区间对应线段树中的一个叶结点。使用线段树可以快速的查找某一个节点在若干条线段中出现的次数，时间复杂度为O(logN）。而未优化的空间复杂度为2N，实际应用时一般还要开4N的数组以免越界，因此有时需要离散化让空间压缩。">
+<meta name="keywords" content="模版">
 <meta property="og:type" content="article">
-<meta property="og:title" content="搬运预告">
-<meta property="og:url" content="http://yoursite.com/2018/05/21/May21/index.html">
+<meta property="og:title" content="线段树">
+<meta property="og:url" content="http://yoursite.com/2018/05/21/线段树/index.html">
 <meta property="og:site_name" content="Murs&#39; blog">
-<meta property="og:description" content="接下来几篇都是搬运自我之前lofter内的博客 是一些非常naive的 emmmm............">
+<meta property="og:description" content="线段树是一种二叉搜索树，与区间树相似，它将一个区间划分成一些单元区间，每个单元区间对应线段树中的一个叶结点。使用线段树可以快速的查找某一个节点在若干条线段中出现的次数，时间复杂度为O(logN）。而未优化的空间复杂度为2N，实际应用时一般还要开4N的数组以免越界，因此有时需要离散化让空间压缩。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-21T11:16:20.089Z">
+<meta property="og:updated_time" content="2018-05-24T13:00:16.776Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="搬运预告">
-<meta name="twitter:description" content="接下来几篇都是搬运自我之前lofter内的博客 是一些非常naive的 emmmm............">
+<meta name="twitter:title" content="线段树">
+<meta name="twitter:description" content="线段树是一种二叉搜索树，与区间树相似，它将一个区间划分成一些单元区间，每个单元区间对应线段树中的一个叶结点。使用线段树可以快速的查找某一个节点在若干条线段中出现的次数，时间复杂度为O(logN）。而未优化的空间复杂度为2N，实际应用时一般还要开4N的数组以免越界，因此有时需要离散化让空间压缩。">
 
 
 
@@ -120,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/05/21/May21/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/21/线段树/"/>
 
 
 
 
 
-  <title>搬运预告 | Murs' blog</title>
+  <title>线段树 | Murs' blog</title>
   
 
 
@@ -233,7 +233,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/21/May21/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/21/线段树/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Murs.Pan">
@@ -250,7 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">搬运预告</h1>
+          <h1 class="post-title" itemprop="name headline">线段树</h1>
         
 
         <div class="post-meta">
@@ -262,7 +262,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-21T19:11:00+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-21T19:37:08+08:00">
                 2018-05-21
               </time>
             
@@ -286,6 +286,10 @@
           
 
           
+              <div class="post-description">
+                  线段树是一种二叉搜索树，与区间树相似，它将一个区间划分成一些单元区间，每个单元区间对应线段树中的一个叶结点。使用线段树可以快速的查找某一个节点在若干条线段中出现的次数，时间复杂度为O(logN）。而未优化的空间复杂度为2N，实际应用时一般还要开4N的数组以免越界，因此有时需要离散化让空间压缩。
+              </div>
+          
 
         </div>
       </header>
@@ -300,10 +304,12 @@
       
 
       
-        <pre><code>接下来几篇都是搬运自我之前lofter内的博客
-是一些非常naive的
-emmmm............
-</code></pre>
+        <p>线段树 模板</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">struct xdtree</span><br><span class="line">&#123;</span><br><span class="line">    int maxx;</span><br><span class="line">    int delta;</span><br><span class="line">&#125;tree[4*maxn];</span><br></pre></td></tr></table></figure>
+<p>直接修改每个叶节点值<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">void updata(int left,int right,int root)</span><br><span class="line">&#123;</span><br><span class="line">	int mid;</span><br><span class="line">	if(y&lt;left||x&gt;right)</span><br><span class="line">		return;</span><br><span class="line">	if(x&lt;=left&amp;&amp;y&gt;=right)</span><br><span class="line">	&#123;</span><br><span class="line">		tree[root].maxx+=k;</span><br><span class="line">		tree[root].delta++;</span><br><span class="line">		return;</span><br><span class="line">	&#125;</span><br><span class="line">	mid=(left+right)/2;</span><br><span class="line">	int delta=tree[root].delta;</span><br><span class="line">	tree[root*2].maxx+=delta;tree[root*2].delta+=delta;</span><br><span class="line">	tree[root*2+1].maxx+=delta;tree[root*2+1].delta+=delta;</span><br><span class="line">	tree[root].delta=0;</span><br><span class="line">	updata(left,mid,root*2);</span><br><span class="line">	updata(mid+1,right,root*2+1);</span><br><span class="line">	tree[root].maxx=max(tree[root*2].maxx,tree[root*2+1].maxx);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>查询<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">int search(int left,int right,int root)</span><br><span class="line">&#123;</span><br><span class="line">	int mid,tr,tl;</span><br><span class="line">	if(y&lt;left||x&gt;right)</span><br><span class="line">		return -222222222;</span><br><span class="line">	if(x&lt;=left&amp;&amp;y&gt;=right)</span><br><span class="line">		return tree[root].maxx;</span><br><span class="line">	mid=(left+right)/2;</span><br><span class="line">	int delta=tree[root].delta;</span><br><span class="line">	tree[root*2].maxx+=delta;tree[root*2].delta+=delta;</span><br><span class="line">	tree[root*2+1].maxx+=delta;tree[root*2+1].delta+=delta;</span><br><span class="line">	tree[root].delta=0;</span><br><span class="line">	tl=search(left,mid,root*2);</span><br><span class="line">	tr=search(mid+1,right,root*2+1);</span><br><span class="line">	return max(tr,tl);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>将区间内叶子节点加上k<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">    int delta=tree[root].delta;  //根的偏移量。</span><br><span class="line"></span><br><span class="line">    //往左右子树传递偏移量</span><br><span class="line"></span><br><span class="line">         tree[root*2].delta+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root*2].maxx+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root*2+1].maxx+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root*2+1].delta+=delta;</span><br><span class="line"></span><br><span class="line">         tree[root].delta=0;   //因为偏移量已经往下传，当前根的偏移量清0.</span><br><span class="line">```        </span><br><span class="line">我们来对比一下，加K与直接更新相比，就多了如上一段代码，这段代码就是线段树思想的核心：偏移量顺便往下传递。相应修改的值也要做一下修改。</span><br><span class="line"></span><br><span class="line">ATTENTION</span><br><span class="line">只有一个大区间的答案可以从左右两个小区间的答案中合并而来时，才可以用线段树。反之，如果一个大区间的答案不可以从左右两个小区间的答案中合并而来时，线段树就失去了意义。</span><br></pre></td></tr></table></figure></p>
+
       
     </div>
     
@@ -320,7 +326,7 @@ emmmm............
       
         <div class="post-tags">
           
-            <a href="/tags/基础/" rel="tag"><i class="fa fa-tag"></i> 基础</a>
+            <a href="/tags/模版/" rel="tag"><i class="fa fa-tag"></i> 模版</a>
           
         </div>
       
@@ -333,8 +339,8 @@ emmmm............
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/05/21/hello my blog/" rel="next" title="hello to my new blog">
-                <i class="fa fa-chevron-left"></i> hello to my new blog
+              <a href="/2018/05/21/链表/" rel="next" title="链表">
+                <i class="fa fa-chevron-left"></i> 链表
               </a>
             
           </div>
@@ -343,8 +349,8 @@ emmmm............
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/05/21/链表/" rel="prev" title="链表">
-                链表 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/05/21/Dijkstra/" rel="prev" title="Dijkstra">
+                Dijkstra <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
