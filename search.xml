@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Operate System]]></title>
+    <url>%2F2018%2F05%2F23%2FOperate-System%2F</url>
+    <content type="text"><![CDATA[OS用于个人电脑Windows 10 (Multiple Editions) (x64) - DVD (Chinese-Simplified)文件名cn_windows_10_multiple_editions_x64_dvd_6848463.isoSHA1C71D49A6144772F352806201EF564951BE55EDD5文件大小4.01GB发布时间2015-07-29Link:1ed2k://|file|cn_windows_10_multiple_editions_x64_dvd_6848463.iso|4303300608|94FD861E82458005A9CA8E617379856A|/ Windows 7 Ultimate SP1 (x64) - DVD (Chinese-Simplified)文件名cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.isoSHA12CE0B2DB34D76ED3F697CE148CB7594432405E23文件大小3.19GB发布时间2011-05-12Link:1ed2k://|file|cn_windows_7_ultimate_with_sp1_x64_dvd_u_677408.iso|3420557312|B58548681854236C7939003B583A8078|/ Windows 8 Pro VL (x64) - DVD (Chinese-Simplified)文件名cn_windows_8_pro_vl_x64_dvd_917773.isoSHA19C4EC9FC4FB561F841E22256BC9DEA6D9D6611FF文件大小3.31GB发布时间2012-08-15Link:1ed2k://|file|cn_windows_8_pro_vl_x64_dvd_917773.iso|3558014976|7956620A80428F37D4F2989CB5CF3B5A|/ Visual Studio Professional 2015 with Update 3 (x86 and x64) - DVD (Chinese-Simplified)文件名cn_visual_studio_professional_2015_with_update_3_x86_x64_dvd_8923256.isoSHA199E6C061FFB3194D28682D75D5F2F0F12A8D614F文件大小7.21GB发布时间2016-06-271ed2k://|file|cn_visual_studio_professional_2015_with_update_3_x86_x64_dvd_8923256.iso|7745202176|DD35D3D169D553224BE5FB44E074ED5E|/ Visual Studio Professional 2017 (version 15.7) (x86 and x64)文件名mu_visual_studio_professional_2017_version_15.3_x86_x64_11100064.exeSHA12366115BA402737C474EE8001F326787F16BA676文件大小1.02MB发布时间2017-08-14Link:1ed2k://|file|mu_visual_studio_professional_2017_version_15.3_x86_x64_11100064.exe|1069960|900673A59F0798822207F72FAA0DA6A9|/ Office Professional Plus 2016 (x86 and x64) - DVD (Chinese-Simplified)文件名cn_office_professional_plus_2016_x86_x64_dvd_6969182.isoSHA1277926A41B472EE38CA0B36ED8F2696356DCC98F文件大小2.41GB发布时间2015-09-22Link:1ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496|27EEA4FE4BB13CD0ECCDFC24167F9E01|/ 用于服务器Windows Server 2016 (x64) - DVD (Chinese-Simplified)文件名cn_windows_server_2016_x64_dvd_9718765.isoSHA16AE9CE84C9A97CFA55372B2892903A214062D5E5文件大小5.75GB发布时间2017-01-12Link:1ed2k://|file|cn_windows_server_2016_x64_dvd_9718765.iso|6176450560|CF1B73D220F1160DE850D9E1979DBD50|/ Windows Server, version 1709 (x64) - DVD (Chinese-Simplified)文件名cn_windows_server_version_1709_updated_jan_2018_x64_dvd_100498132.isoSHA1da13d6021b44f03fc0fd85c2be9fba2d500f1193文件大小3.19GB发布时间2018-01-18Link:1ed2k://|file|cn_windows_server_version_1709_updated_jan_2018_x64_dvd_100498132.iso|3422365696|BE37A87AC47486D0FC7160B2A1525106|/ TOOLS官方镜像制作工具：MediaCreationToolLink：1链接：https://pan.baidu.com/s/1cBzcOLU-DJgBs46K95rNqQ 密码：15ss 激活工具：KMSpico(用于win10&amp;office2016)Link:1链接：https://pan.baidu.com/s/1EJMjTGjK9UIUBNCphNYx2A 密码：rdwx OEMF7(用于win7)Link：1链接：https://pan.baidu.com/s/1ze-quYT13GS3P6j6MdFC-A 密码：xjvn 版权声明：本站仅为个人性质的原版软件信息收录站点，转自MSDNitellyou，微软官方标识请认准：Microsoft。]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[VSC run c++]]></title>
+    <url>%2F2018%2F05%2F21%2FVSC-run-c%2F</url>
+    <content type="text"><![CDATA[用VS code run c++ Windows下VSCode便携式c/c++环境基于Visual Studio Code Version 1.13包含GCC，可进行编译调试VSCode的配置及插件便携化，不影响本机已存的VSCode（即可同时存在多个VSCode，配置插件各自独立）使用说明：使用”Code.portable.bat”来启动便携版。调试代码时会要求你配置，此时随意选择一个配置，然后使用”.\portable\configs\”下的文件替换你在”.vscode”下的配置文件即可。这是VSCode编写调试c/cpp程序的便携式自动配置环境c/cpp的编译器（gcc，g++）调试器（gdb）vscode自动配置脚本首次使用双击setup.bat进行自动配置，以后每次打开VSCode.bat即可。setup.bat会向当前用户的文件夹内拷贝一些文件（cpptool）用于配置，请确保拥有足够权限。内置的Project文件夹为默认的项目文件夹，其中预置了一个helloworld测试程序。度娘种 链接：http://pan.baidu.com/s/1skGlgol 密码：ow7s]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[快读]]></title>
+    <url>%2F2018%2F05%2F21%2F%E5%BF%AB%E8%AF%BB%2F</url>
+    <content type="text"><![CDATA[先贴一个最简单的快读吧，以后慢慢更123456789101112131415inline int read()&#123; int s=0,w=1; char ch=getchar(); while(ch&lt;=&apos;0&apos;||ch&gt;&apos;9&apos;)&#123;if(ch==&apos;-&apos;)w=-1;ch=getchar();&#125; while(ch&gt;=&apos;0&apos;&amp;&amp;ch&lt;=&apos;9&apos;) s=s*10+ch-&apos;0&apos;,ch=getchar(); return s*w; &#125; int main()&#123; int n=read();&#125;]]></content>
+      <tags>
+        <tag>模版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hash]]></title>
+    <url>%2F2018%2F05%2F21%2Fhash%2F</url>
+    <content type="text"><![CDATA[hash例题oj13351234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586#include&lt;cstdio&gt;#include&lt;algorithm&gt;#include&lt;cstring&gt;using namespace std;const int step=7;const int modprime=2323237;int hash[modprime+5];int a[100100],b[100100],an,bn;int tong=0;//记录相同元素个数void init()&#123; memset(a,0,sizeof(a)); memset(b,0,sizeof(b)); scanf(&quot;%d&quot;,&amp;an); for(int i=1;i&lt;=an;i++) scanf(&quot;%d&quot;,&amp;a[i]); scanf(&quot;%d&quot;,&amp;bn); for(int i=1;i&lt;=bn;i++) scanf(&quot;%d&quot;,&amp;b[i]);&#125;int find(int k)//查找k元素&#123; int temp=k%modprime; while(hash[temp]!=k&amp;&amp;hash[temp]!=0) &#123; temp+=step; if(temp&gt;=modprime) temp-=modprime; &#125; return temp;&#125;void insert(int k)//插入hash表&#123; int now=find(k); hash[now]=k;&#125;void check(int k)//在hash中查找元素&#123; int now=find(k); if(hash[now]==k) tong++;&#125;void work()&#123; for(int i=1;i&lt;=an;i++) insert(a[i]); for(int i=1;i&lt;=bn;i++) check(b[i]);&#125;int main()&#123; init(); work(); if(an==bn&amp;&amp;tong==an) &#123; puts(&quot;A equals B&quot;); return 0; &#125; if(an&lt;bn&amp;&amp;tong==an) &#123; puts(&quot;A is a proper subset of B&quot;); return 0; &#125; if(an&gt;bn&amp;&amp;tong==bn) &#123; puts(&quot;B is a proper subset of A&quot;); return 0; &#125; if(tong==0) puts(&quot;A and B are disjoint&quot;); else puts(&quot;I&apos;m confused!&quot;); return 0;&#125;//hash hash Murs hash有几个要素: 先是要制作获取hash地址的find函数在一个表中insert进去然后查询以拉链式进行最后比较相同元素数并进行特判其实这种思想在之前的一个problem中就有体现，不记得题号了但是是以char所对应的int值来做下标查询.]]></content>
+      <tags>
+        <tag>模版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Dijkstra]]></title>
+    <url>%2F2018%2F05%2F21%2FDijkstra%2F</url>
+    <content type="text"><![CDATA[Bessie Come HomeDijkstra 板子12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758#include&lt;iostream&gt;#include&lt;cstdio&gt;#include&lt;cstring&gt;#include&lt;algorithm&gt;using namespace std;int n,a[200][200],dis[200];bool vis[200];void init()&#123; memset(a,10,sizeof(a)); cin&gt;&gt;n; char a_,b_; int c_; for(int i=1;i&lt;=n;i++) &#123; cin&gt;&gt;a_&gt;&gt;b_&gt;&gt;c_; a[int(a_)][int(b_)]=min(c_,a[int(a_)][int(b_)]); a[int(b_)][int(a_)]=min(c_,a[int(b_)][int(a_)]); &#125;&#125;void dijkstra(int st)&#123; for(int i=0;i&lt;200;i++) dis[i]=a[int(&apos;Z&apos;)][i]; memset(vis,false,sizeof(vis)); vis[st]=true; for(int i=0;i&lt;n;i++) &#123; int minn=2000000000; int k=-1; for(int j=0;j&lt;200;j++) if(!vis[j]&amp;&amp;dis[j]&lt;minn) &#123; minn=dis[j]; k=j; &#125; if(k==-1) return; vis[k]=true; for(int j=0;j&lt;200;j++) if(!vis[j]&amp;&amp;(dis[k]+a[k][j]&lt;dis[j])) dis[j]=dis[k]+a[k][j]; &#125;&#125;int main()&#123; //freopen(&quot;devil.in&quot;,&quot;r&quot;,stdin); init(); dijkstra(int(&apos;Z&apos;)); int minn=200000000,k=-1; for(int i=int(&apos;A&apos;);i&lt;int(&apos;Z&apos;);i++) if(dis[i]&lt;minn) &#123; minn=dis[i]; k=i; &#125; cout&lt;&lt;char(k)&lt;&lt;&apos; &apos;&lt;&lt;minn&lt;&lt;endl; return 0;&#125;]]></content>
+      <tags>
+        <tag>模版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[线段树]]></title>
+    <url>%2F2018%2F05%2F21%2F%E7%BA%BF%E6%AE%B5%E6%A0%91%2F</url>
+    <content type="text"><![CDATA[线段树 模板 12345struct xdtree&#123; int maxx; int delta;&#125;tree[4*maxn]; 直接修改每个叶节点值1234567891011121314151617181920void updata(int left,int right,int root)&#123; int mid; if(y&lt;left||x&gt;right) return; if(x&lt;=left&amp;&amp;y&gt;=right) &#123; tree[root].maxx+=k; tree[root].delta++; return; &#125; mid=(left+right)/2; int delta=tree[root].delta; tree[root*2].maxx+=delta;tree[root*2].delta+=delta; tree[root*2+1].maxx+=delta;tree[root*2+1].delta+=delta; tree[root].delta=0; updata(left,mid,root*2); updata(mid+1,right,root*2+1); tree[root].maxx=max(tree[root*2].maxx,tree[root*2+1].maxx);&#125; 查询12345678910111213141516int search(int left,int right,int root)&#123; int mid,tr,tl; if(y&lt;left||x&gt;right) return -222222222; if(x&lt;=left&amp;&amp;y&gt;=right) return tree[root].maxx; mid=(left+right)/2; int delta=tree[root].delta; tree[root*2].maxx+=delta;tree[root*2].delta+=delta; tree[root*2+1].maxx+=delta;tree[root*2+1].delta+=delta; tree[root].delta=0; tl=search(left,mid,root*2); tr=search(mid+1,right,root*2+1); return max(tr,tl);&#125; 将区间内叶子节点加上k123456789101112131415161718 int delta=tree[root].delta; //根的偏移量。 //往左右子树传递偏移量 tree[root*2].delta+=delta; tree[root*2].maxx+=delta; tree[root*2+1].maxx+=delta; tree[root*2+1].delta+=delta; tree[root].delta=0; //因为偏移量已经往下传，当前根的偏移量清0.``` 我们来对比一下，加K与直接更新相比，就多了如上一段代码，这段代码就是线段树思想的核心：偏移量顺便往下传递。相应修改的值也要做一下修改。ATTENTION只有一个大区间的答案可以从左右两个小区间的答案中合并而来时，才可以用线段树。反之，如果一个大区间的答案不可以从左右两个小区间的答案中合并而来时，线段树就失去了意义。]]></content>
+      <tags>
+        <tag>模版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[链表]]></title>
+    <url>%2F2018%2F05%2F21%2F%E9%93%BE%E8%A1%A8%2F</url>
+    <content type="text"><![CDATA[线性表(静态链表) 1.定义123456789struct node&#123; int value;当前元素值 int next;该元素下一元素的下标（体现了链的概念）&#125;arr[........];int top;//实际元素个数 2.插入（将元素q插入到第p个元素后面）1234567top++；//新开一个空元素arr[top].value=q;//将所要插入的元素值放到该空元素内arr[top].next=arr[p].next;//插入前第p元素的next在插入后就是q的下一个元素的下标arr[p].next=top;//所插入元素的前一个元素也就是p的next所指向的即为所插入元素的下标，而前面我们将其放在top位置上则arr[p].next就要指向top 3.删除（将p的下一个元素删除）1234int temp=arr[p].next;//提取下一元素的下标arr[p].next=arr[temp].next;//将p的next直接指向下下一个元素的下标，就把p下一个元素给跳过；PS：千万注意链表中的下标和next一定要区分开！]]></content>
+      <tags>
+        <tag>模版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[搬运预告]]></title>
+    <url>%2F2018%2F05%2F21%2FMay21%2F</url>
+    <content type="text"><![CDATA[接下来几篇都是搬运自我之前lofter内的博客 是一些非常naive的 emmmm............]]></content>
+      <tags>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hello to my new blog]]></title>
+    <url>%2F2018%2F05%2F21%2Fhello%20my%20blog%2F</url>
+    <content type="text"><![CDATA[这个blog站今天就正式搭起来啦！ ——Murs]]></content>
+      <tags>
+        <tag>基础</tag>
+      </tags>
+  </entry>
+</search>
